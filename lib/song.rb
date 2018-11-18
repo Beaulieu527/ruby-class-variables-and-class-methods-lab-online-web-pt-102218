@@ -17,14 +17,12 @@ class Song
     @@count
   end
 
-  def artists=(artist)
-    @@artists = artist
-    if !@@artists.include?(artist)
-    @@artists<< artist
-    end
+  def self.artist
+    artists.unique
   end
+
   def genre_count
-    return @@genres.length
+    return @@genres.l
   end
 
   def artist_count
