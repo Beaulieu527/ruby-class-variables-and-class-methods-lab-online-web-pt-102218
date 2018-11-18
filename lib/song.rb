@@ -26,7 +26,11 @@ class Song
   end
 
   def genre_count
-    return @@genres.l
+    genre_count = {}
+    @@genres.each do |genre|
+      
+    end
+    
   end
 
   def artist_count
