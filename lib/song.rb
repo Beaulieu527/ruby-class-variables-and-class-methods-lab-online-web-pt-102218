@@ -26,10 +26,10 @@ class Song
   end
 
   def genre_count
-    genre_count = {}
+    genre_counter = {}
     @@genres.each do |genre|
-      @@genres || = 0
-      @@genres += 1
+      genre@@genres || = 0
+      @@genres_counter(genre) += 1
     end
 
   end
@@ -37,4 +37,5 @@ class Song
   def artist_count
   end
 
+    end
 end
