@@ -17,7 +17,7 @@ class Song
     @@count
   end
 
-  def @@artists=(artist)
+  def @@artists(artist)
     @@artists = artist
     if !@@artists.include?(artist)
     @@artists<< artist
