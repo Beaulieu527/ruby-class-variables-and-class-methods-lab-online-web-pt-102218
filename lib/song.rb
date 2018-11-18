@@ -17,8 +17,13 @@ class Song
     @@count
   end
 
+  def genre_count
+    if !@@genres.inlcude?(genre)
+      @@genres << genre
+    end
+  end
 
-
-
+  def artist_count
+  end
 
 end
