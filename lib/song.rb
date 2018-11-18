@@ -15,7 +15,7 @@ class Song
     @@count
   end
 
-  def genre_count
+  def genre_count(genre)
     if !GENRES.include?(genre)
     GENRES << genre
   end
