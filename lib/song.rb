@@ -31,12 +31,15 @@ class Song
       genre_counter[genre] ||= 0
       genre_counter[genre] += 1
     end
-    genre_counter
+    return genre_counter
   end
 
   def artist_count
+    artist_counter = {}
+    @@artists.each do |artist|
+      artist_counter[artist] ||=0
+      artist_counter[artist] +=1
+    end
+    return artist_counter
   end
-
-
-
 end
