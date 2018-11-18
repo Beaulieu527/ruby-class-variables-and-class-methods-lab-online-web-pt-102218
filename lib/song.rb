@@ -1,8 +1,8 @@
-class Song 
+class Song
   @@song_count
-  
+
   attr_accessor :name, :artist, :genre
-  def initialize 
+  def initialize
   end
 
 
