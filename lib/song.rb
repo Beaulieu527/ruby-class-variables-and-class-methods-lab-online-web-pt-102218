@@ -6,6 +6,9 @@ class Song
 
   def initialize
     @@count += 1
+    @@name
+    @@genre
+    @@artist
   end
 
   def self.count
